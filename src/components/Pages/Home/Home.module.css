@@ -1,0 +1,39 @@
+.rowC {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  list-style: none;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.columnC {
+  float: left;
+  padding: 10px;
+}
+
+
+.columnC:left {
+  width: 80%;
+}
+
+.columnC:right {
+  width: 20%;
+}
+
+.body{
+  background-color: lightgrey;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+.bodyText{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+
+  font-size: 20px;
+}
