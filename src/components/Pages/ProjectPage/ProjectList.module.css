@@ -1,0 +1,31 @@
+.containerNew {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 20px;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.projects {
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.imageSource {
+  height: 200px;
+  width: 200px;
+}
+
+.h1 {
+  border: 2px solid purple;
+  border-radius: 1rem;
+}
+
+.h1:hover {
+  box-shadow: 2px 2px palevioletred;
+  background-color: lightgrey;
+}

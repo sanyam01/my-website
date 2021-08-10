@@ -1,9 +1,35 @@
-import React from 'react';
+import React, { Fragment } from "react";
+import classes from "./Project.module.css";
+import ProjectList from "./ProjectList";
+import ReportImage from "../../Images/ClassificationReport.jpg";
+import CalgaryTraffic from "../../Images/calgaryTraffic.jpeg";
+import FaceDetection from "../../Images/FaceDetection.jpeg";
+import GUIPic from "../../Images/GUIPic.png";
+import StockPrediction from "../../Images/stockPrediction.png";
+import ToolShop from "../../Images/ToolShop.jpeg";
 
 const Projects = () => {
+  const listProjects = [
+    {
+      id: 1,
+      title: "Distributed Inventory Management System",
+    },
+    {
+      id: 2,
+      title: "Automated Classification of Software Issue Reports",
+    },
+    { id: 3, title: "Stock Prediction using Long-Short Term Memory" },
+    { id: 4, title: "Face Detection using Siamese Model" },
+    { id: 5, title: "Data Analysis of Calgary City Traffic" },
+    { id: 6, title: "Graphical User Interface (GUI) in Python" },
+  ];
 
-    return <div> This is project page</div>
-
+  return (
+    <Fragment>
+      <div className={classes.header}> Projects</div>
+      <ProjectList projects={listProjects} />
+    </Fragment>
+  );
 };
 
 export default Projects;

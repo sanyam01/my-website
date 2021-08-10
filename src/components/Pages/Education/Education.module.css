@@ -1,0 +1,46 @@
+.header {
+  background-color: grey; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 30px;
+  white-space: pre-wrap;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex : 1 1 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: center;
+  padding-top: 40px;
+}
+
+.child {
+  
+  border: thin;
+  border: 1px solid black;
+  width: 400px;
+}
+
+.headText {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.infoBody {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  white-space: pre-wrap;
+  list-style-type: none;
+}

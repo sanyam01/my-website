@@ -1,8 +1,9 @@
 import React from "react";
+import classes from "./Experience.module.css";
 
 const Experience = () => {
 
-    return (<div> This is experience page.</div>);
+    return (<div className = { classes.header}>  Experience</div>);
 };
 
 export default Experience;
