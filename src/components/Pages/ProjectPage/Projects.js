@@ -1,14 +1,12 @@
 import React, { Fragment } from "react";
 import classes from "./Project.module.css";
 import ProjectList from "./ProjectList";
-import ReportImage from "../../Images/ClassificationReport.jpg";
-import CalgaryTraffic from "../../Images/calgaryTraffic.jpeg";
-import FaceDetection from "../../Images/FaceDetection.jpeg";
-import GUIPic from "../../Images/GUIPic.png";
-import StockPrediction from "../../Images/stockPrediction.png";
-import ToolShop from "../../Images/ToolShop.jpeg";
+
 
 const Projects = () => {
+
+  
+
   const listProjects = [
     {
       id: 1,

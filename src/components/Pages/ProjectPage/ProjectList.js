@@ -9,13 +9,18 @@ import StockPrediction from "../../Images/stockPrediction.png";
 import ToolShop from "../../Images/ToolShop.jpeg";
 
 const ProjectList = (props) => {
+
+  const testClickFunction = (event) => {
+    console.log(event.key);
+  } ;
+
   const imageSource = [
-    { id: 1, srcImage: ReportImage },
-    { id: 2, srcImage: CalgaryTraffic },
-    { id: 3, srcImage: FaceDetection },
-    { id: 4, srcImage: GUIPic },
-    { id: 5, srcImage: StockPrediction },
-    { id: 6, srcImage: ToolShop },
+    { id: 1, srcImage: ToolShop },
+    { id: 2, srcImage: ReportImage },
+    { id: 3, srcImage: StockPrediction },
+    { id: 4, srcImage: FaceDetection },
+    { id: 5, srcImage: CalgaryTraffic },
+    { id: 6, srcImage: GUIPic },
   ];
 
   const getImageSource = (props) => {
@@ -28,15 +33,21 @@ const ProjectList = (props) => {
     <Card className={classes.projects}>
       <div className={classes.containerNew}>
         {props.projects.map((project) => (
-          <div className={classes.container}  >
-            <div className = {classes.h1}>
+          <div
+            className={classes.container}
+            key={project.id}
+           
+          >
+            <div className={classes.h1} >
               <img
                 className={classes.imageSource}
                 src={getImageSource(project)}
                 alt="Logo"
+                key = {project.id}
+                onClick = {testClickFunction }
               />
 
-              <div> {project.title} </div>
+              <div className = {classes.body}> {project.title} </div>
             </div>
           </div>
         ))}

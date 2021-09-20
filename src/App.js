@@ -8,17 +8,19 @@ import Experience from "./components/Pages/Experiences/Experience";
 import Education from "./components/Pages/Education/Education";
 import Fun from "./components/Pages/Fun/Fun";
 import { Route, Switch, Redirect } from "react-router-dom";
+import Copyright from "../src/components/Pages/Copyright/Copyright";
+import {Fragment} from 'react';
 
 function App() {
   return (
+    <Fragment> 
     <div className="App">
       <HomePage />
-      <Switch>
-
-      <Route path="home">
+      <Switch > 
+        <Route path="home">
           <Home />
         </Route>
-        
+
         <Route path="/about">
           <About />
         </Route>
@@ -46,9 +48,11 @@ function App() {
         <Route path="/">
           <Home />
         </Route>
-        
       </Switch>
+
     </div>
+    <Copyright/>
+    </Fragment>
   );
 }
 

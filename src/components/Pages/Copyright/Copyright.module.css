@@ -1,0 +1,13 @@
+.footer{
+    position: relative;
+    color:gray;
+    background-color: lightgrey ;                
+    bottom:0;     
+    left: 0;
+    right: 0;
+    height: 50px;  
+    text-align: center;
+    width: 100%;                  
+    clear: both;
+    
+}

@@ -1,0 +1,31 @@
+.h1 {
+  text-align: left;
+  padding: none;
+  text-decoration: underline;
+}
+
+.subjects {
+  width: 90%;
+  max-width: 25rem;
+  align-items: center;
+  padding-left: 230px;
+}
+
+.subjects ul {
+  list-style: none;
+  text-align: left;
+}
+
+.subjects li {
+  margin: 0.5rem 0;
+  padding: none;
+  content: attr(data-icon);
+  text-shadow: honeydew;
+}
+
+.subjects li::marker {
+  content: ">>";
+  padding-inline-start: 1ch;
+  color: grey;
+  font-weight: bold;
+}
