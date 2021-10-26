@@ -21,12 +21,12 @@
 }
 
 .h1 {
-  border: 2px solid purple;
+  border: 2px solid black;
   border-radius: 1rem;
 }
 
-.h1:hover {
-  box-shadow: 2px 2px palevioletred;
+.h1:hover { 
+  box-shadow: 2px 2px lightgrey;
   background-color: lightgrey;
 }
 
