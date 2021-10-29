@@ -9,7 +9,8 @@ import Education from "./components/Pages/Education/Education";
 import Fun from "./components/Pages/Fun/Fun";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Copyright from "../src/components/Pages/Copyright/Copyright";
-import {Fragment} from 'react';
+import React,{Fragment} from 'react';
+
 
 function App() {
   return (

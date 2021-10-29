@@ -1,4 +1,5 @@
 import classes from "./Copyright.module.css";
+import React from 'react';
 
 const Copyright = () => {
 

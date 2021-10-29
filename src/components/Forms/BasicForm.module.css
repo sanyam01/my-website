@@ -4,7 +4,7 @@
   
   .form-control input,
   .form-control label {
-    display: inline-block;
+    display: table;
   }
   
   .form-control label {
