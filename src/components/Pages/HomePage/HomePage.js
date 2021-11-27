@@ -17,7 +17,7 @@ const HomePage = () => {
         <Button name = 'Education' id = 'education'/>
         <Button name = 'Experience' id = 'experience'/>
         <Button name = 'Projects' id = 'projects'/>
-        <Button name = 'Facts' id = 'funFacts'/>
+        
         <Button name = 'Contact' id = 'contact'/> 
 
            

@@ -9,6 +9,7 @@ const BasicForm = (props) => {
   const messageRef = useRef("");
 
   const submitHandler = (event) => {
+    event.preventDefault();
     console.log("Form has been submitted");
 
     const messageInfo = {

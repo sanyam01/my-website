@@ -17,7 +17,8 @@ const Contact = () => {
       }
     });
     const data = await response.json();
-    console.log(data);
+
+    console.log(JSON.stringify(message));
 
   });
 

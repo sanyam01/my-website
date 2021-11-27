@@ -15,7 +15,7 @@ const Home = () => {
               I am Sanyam. I am currently pursuing master's at University of
               Calgary in Electrical and Computer Engineering, with my course
               work focused on software engineering. I am an aspiring software
-              engineer and looking for full time opportunities from May 2022.
+              engineer and looking for full time opportunities from January 2022.
             </p>
           </div>
         </div>
